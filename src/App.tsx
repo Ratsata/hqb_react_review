@@ -1,24 +1,10 @@
 import './App.css';
-import PerfilDesarrollador from './components/perfil-desarrollador/PerfilDesarrollador';
+import Login from './components/login/Login';
 
 function App() {
-
-  const perfiles: any = [
-    {
-      nombre: 'Sebastián Vega',
-      edad: 25,
-      tienePantalla: true
-    },
-    {
-      nombre: 'Cristian Escobar',
-      edad: null,
-      tienePantalla: true
-    },
-  ]
-
   return (
     <div className="App">
-      <PerfilDesarrollador perfiles={perfiles} />
+      <Login />
     </div>
   );
 }
