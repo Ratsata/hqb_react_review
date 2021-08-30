@@ -129,6 +129,12 @@ img {
 	}
 }
 
+//Button
+.input-submit:disabled{
+	background-color: #5e8a8a !important;
+	cursor: default !important;
+}
+
 // Main
 .main {
 	.wrapper {
